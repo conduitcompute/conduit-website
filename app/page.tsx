@@ -311,8 +311,8 @@ const Site = () => {
       {/* FOOTER */}
       <footer className="s" style={{ borderTop: `1px solid ${border}`, padding: "48px 48px", background: white }}>
         <div style={{ ...mx, display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 36 }}>
-          <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 9, marginBottom: 10 }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 9, marginBottom: 10 }}>
               <Mark size={22} color={ink} />
               <span className="wm" style={{ fontSize: 19, fontWeight: 600, color: ink }}>Conduit</span>
             </div>
@@ -330,11 +330,6 @@ const Site = () => {
               <div style={{ marginBottom: 7 }}>Americas</div>
               <div style={{ marginBottom: 7 }}>Europe</div>
               <div>Asia-Pacific</div>
-            </div>
-            <div>
-              <div style={{ marginBottom: 12, color: muted, fontWeight: 600 }}>Connect</div>
-              <div style={{ marginBottom: 7, cursor: "pointer" }}>LinkedIn</div>
-              <div style={{ cursor: "pointer" }}>X</div>
             </div>
           </div>
         </div>
