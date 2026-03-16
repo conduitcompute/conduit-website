@@ -269,7 +269,7 @@ const Site = () => {
           <div className="g2 s" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, marginTop: 48 }}>
             {/* Parsa */}
             <div style={{ display: "flex", gap: 20, alignItems: "flex-start" }}>
-              <Image src="/parsa.jpg" alt="Parsa Rahbar" width={80} height={80} style={{ borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
+              <Image src="/Parsa.jpg" alt="Parsa Rahbar" width={80} height={80} style={{ borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
               <div>
                 <h3 style={{ fontSize: 16, fontWeight: 600, color: ink, marginBottom: 4 }}>Parsa Rahbar</h3>
                 <p style={{ fontSize: 11, color: gold, fontWeight: 500, letterSpacing: 1, textTransform: "uppercase", marginBottom: 10 }}>Co-Founder</p>
@@ -280,7 +280,7 @@ const Site = () => {
             </div>
             {/* Akash */}
             <div style={{ display: "flex", gap: 20, alignItems: "flex-start" }}>
-              <Image src="/akash.jpg" alt="Akash Umasuthan" width={80} height={80} style={{ borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
+              <Image src="/Akash.jpg" alt="Akash Umasuthan" width={80} height={80} style={{ borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
               <div>
                 <h3 style={{ fontSize: 16, fontWeight: 600, color: ink, marginBottom: 4 }}>Akash Umasuthan</h3>
                 <p style={{ fontSize: 11, color: gold, fontWeight: 500, letterSpacing: 1, textTransform: "uppercase", marginBottom: 10 }}>Co-Founder</p>
