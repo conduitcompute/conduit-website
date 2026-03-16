@@ -310,8 +310,8 @@ const Site = () => {
 
       {/* FOOTER */}
       <footer className="s" style={{ borderTop: `1px solid ${border}`, padding: "48px 48px", background: white }}>
-        <div style={{ ...mx, display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 36 }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+        <div style={{ ...mx, display: "flex", justifyContent: "center", alignItems: "flex-start", flexWrap: "wrap", gap: 36 }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, minWidth: 250 }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 9, marginBottom: 10 }}>
               <Mark size={22} color={ink} />
               <span className="wm" style={{ fontSize: 19, fontWeight: 600, color: ink }}>Conduit</span>
