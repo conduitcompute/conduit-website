@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.conduitcompute.com"),
-  title: "Conduit | The Merchant Layer for GPU Compute",
+  title: "Conduit",
   description: "GPU compute brokerage. We buy capacity wholesale and sell it at fixed rates.",
   icons: { icon: "/favicon.svg" },
   openGraph: {
