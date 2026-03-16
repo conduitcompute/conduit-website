@@ -310,27 +310,25 @@ const Site = () => {
 
       {/* FOOTER */}
       <footer className="s" style={{ borderTop: `1px solid ${border}`, padding: "48px 48px", background: white }}>
-        <div style={{ ...mx, display: "flex", justifyContent: "center", alignItems: "flex-start", flexWrap: "wrap", gap: 36 }}>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, minWidth: 250 }}>
+        <div style={{ ...mx, display: "grid", gridTemplateColumns: "repeat(3, minmax(220px, 1fr))", justifyItems: "center", gap: 36 }}>
+          <div style={{ fontSize: 10, letterSpacing: 1, textTransform: "uppercase", color: faint }}>
+            <div style={{ marginBottom: 12, color: muted, fontWeight: 600 }}>Company</div>
+            <a href="#what" style={{ display: "block", marginBottom: 7, color: "inherit", textDecoration: "none" }}>What We Do</a>
+            <a href="#why" style={{ display: "block", marginBottom: 7, color: "inherit", textDecoration: "none" }}>Why Conduit</a>
+            <a href="#contact" style={{ display: "block", color: "inherit", textDecoration: "none" }}>Contact</a>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 9, marginBottom: 10 }}>
               <Mark size={22} color={ink} />
               <span className="wm" style={{ fontSize: 19, fontWeight: 600, color: ink }}>Conduit</span>
             </div>
             <p style={{ fontSize: 11, color: faint }}>The compute merchant.</p>
           </div>
-          <div style={{ display: "flex", gap: 36, fontSize: 10, letterSpacing: 1, textTransform: "uppercase", color: faint }}>
-            <div>
-              <div style={{ marginBottom: 12, color: muted, fontWeight: 600 }}>Company</div>
-              <a href="#what" style={{ display: "block", marginBottom: 7, color: "inherit", textDecoration: "none" }}>What We Do</a>
-              <a href="#why" style={{ display: "block", marginBottom: 7, color: "inherit", textDecoration: "none" }}>Why Conduit</a>
-              <a href="#contact" style={{ display: "block", color: "inherit", textDecoration: "none" }}>Contact</a>
-            </div>
-            <div>
-              <div style={{ marginBottom: 12, color: muted, fontWeight: 600 }}>Regions</div>
-              <div style={{ marginBottom: 7 }}>Americas</div>
-              <div style={{ marginBottom: 7 }}>Europe</div>
-              <div>Asia-Pacific</div>
-            </div>
+          <div style={{ fontSize: 10, letterSpacing: 1, textTransform: "uppercase", color: faint }}>
+            <div style={{ marginBottom: 12, color: muted, fontWeight: 600 }}>Regions</div>
+            <div style={{ marginBottom: 7 }}>Americas</div>
+            <div style={{ marginBottom: 7 }}>Europe</div>
+            <div>Asia-Pacific</div>
           </div>
         </div>
         <div style={{ ...mx, marginTop: 36, paddingTop: 24, borderTop: `1px solid ${border}`, display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 10 }}>
