@@ -295,7 +295,7 @@ const Site = () => {
 
       {/* CTA - RED */}
       <section id="contact" style={{ background: red, color: "#fff", padding: "100px 48px", textAlign: "center" }}>
-        <div {...anim("ct")} style={{ maxWidth: 460, margin: "0 auto", ...anim("ct").style }}>
+        <div {...anim("ct")} style={{ maxWidth: 460, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", ...anim("ct").style }}>
           <Mark size={30} color="#fff" />
           <h2 className="wm" style={{ fontSize: 38, fontWeight: 500, fontStyle: "italic", lineHeight: 1.2, marginTop: 20, marginBottom: 16, color: "#fff" }}>
             Get a fixed quote.
