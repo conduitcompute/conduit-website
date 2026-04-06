@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.conduitcompute.com"),
-  title: "Conduit",
-  description: "GPU compute brokerage. We buy capacity wholesale and sell it at fixed rates.",
+  title: "Conduit — AI Operating Partner",
+  description: "Conduit embeds inside your business and builds AI systems that cut costs, accelerate revenue, and make your team more effective.",
   icons: { icon: "/favicon.svg" },
   openGraph: {
-    title: "Conduit | The Merchant Layer for GPU Compute",
-    description: "GPU compute brokerage. Fixed-price contracts, wholesale rates.",
+    title: "Conduit — AI Operating Partner",
+    description: "Conduit embeds inside your business and builds AI systems that cut costs, accelerate revenue, and make your team more effective.",
     url: "https://www.conduitcompute.com",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
